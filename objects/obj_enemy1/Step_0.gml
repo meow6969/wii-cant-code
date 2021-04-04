@@ -17,3 +17,6 @@ friction = .15
 
 
 timer -= 25
+
+
+stay_in_border(obj_player1, view_camera[0])

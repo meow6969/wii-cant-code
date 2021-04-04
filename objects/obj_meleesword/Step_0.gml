@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-timer -= 3;
-if timer < 0 {
+if ( current_time - 100 ) > creation {
 	instance_destroy()
 }
 image_angle += 5
