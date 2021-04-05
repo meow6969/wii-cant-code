@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"stay_in_border","path":"scripts/stay_in_border/stay_in_border.yy",},"order":1,},
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},"order":2,},
+    {"id":{"name":"til_stone","path":"tilesets/til_stone/til_stone.yy",},"order":2,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":3,},
     {"id":{"name":"spr_testmeleesword","path":"sprites/spr_testmeleesword/spr_testmeleesword.yy",},"order":5,},
@@ -18,6 +19,7 @@
     {"id":{"name":"spr_testenemy2","path":"sprites/spr_testenemy2/spr_testenemy2.yy",},"order":3,},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":2,},
     {"id":{"name":"spr_testplayer1","path":"sprites/spr_testplayer1/spr_testplayer1.yy",},"order":1,},
+    {"id":{"name":"spr_stonetileset","path":"sprites/spr_stonetileset/spr_stonetileset.yy",},"order":2,},
     {"id":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},"order":3,},
     {"id":{"name":"obj_meleesword","path":"objects/obj_meleesword/obj_meleesword.yy",},"order":4,},
     {"id":{"name":"spr_grasstileset","path":"sprites/spr_grasstileset/spr_grasstileset.yy",},"order":0,},
@@ -74,7 +76,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.556",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "Wii_Cant_Code",
