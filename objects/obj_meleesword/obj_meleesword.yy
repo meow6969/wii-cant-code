@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_testmeleesword",
-    "path": "sprites/spr_testmeleesword/spr_testmeleesword.yy",
+    "name": "spr_testmeleesword2",
+    "path": "sprites/spr_testmeleesword2/spr_testmeleesword2.yy",
   },
   "solid": false,
   "visible": true,
