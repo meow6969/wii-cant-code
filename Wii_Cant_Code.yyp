@@ -13,7 +13,9 @@
     {"id":{"name":"spr_testenemy3","path":"sprites/spr_testenemy3/spr_testenemy3.yy",},"order":4,},
     {"id":{"name":"Map","path":"scripts/Map/Map.yy",},"order":0,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":0,},
+    {"id":{"name":"rm_room4","path":"rooms/rm_room4/rm_room4.yy",},"order":4,},
     {"id":{"name":"snd_overworld","path":"sounds/snd_overworld/snd_overworld.yy",},"order":0,},
+    {"id":{"name":"rm_room5","path":"rooms/rm_room5/rm_room5.yy",},"order":5,},
     {"id":{"name":"spr_testmeleesword2","path":"sprites/spr_testmeleesword2/spr_testmeleesword2.yy",},"order":18,},
     {"id":{"name":"spr_testroom1","path":"sprites/spr_testroom1/spr_testroom1.yy",},"order":0,},
     {"id":{"name":"fnt_impact","path":"fonts/fnt_impact/fnt_impact.yy",},"order":0,},
@@ -51,6 +53,8 @@
     {"roomId":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"roomId":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
     {"roomId":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
+    {"roomId":{"name":"rm_room4","path":"rooms/rm_room4/rm_room4.yy",},},
+    {"roomId":{"name":"rm_room5","path":"rooms/rm_room5/rm_room5.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
