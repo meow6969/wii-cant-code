@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description hit the sword right
 // You can write your code in this editor
 
 if hit_timer < 0 {

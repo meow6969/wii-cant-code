@@ -6,7 +6,7 @@
 
 if room_get_name(room) == "rm_room1" {
 	if dont_play == 0 {
-		audio_play_sound(snd_overworld, 10, true);
+		// audio_play_sound(snd_overworld, 10, true);
 		show_debug_message("sound")
 		dont_play = 1
 	}

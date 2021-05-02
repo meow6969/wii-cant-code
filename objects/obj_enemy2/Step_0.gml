@@ -14,4 +14,4 @@ else if distance_to_object(obj_player1) > 300 {
 
 friction = 0.25
 
-stay_in_border(obj_player1, view_camera[0])
+stay_in_border(obj_enemy2, room_height, room_width)
