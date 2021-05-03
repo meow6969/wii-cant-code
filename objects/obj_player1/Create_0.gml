@@ -12,6 +12,5 @@ left = false;
 health = 100;
 invul = 0;
 hit_timer = 0;
-
-
+run_script = false
 
