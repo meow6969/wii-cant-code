@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if ( current_time - 300 ) > creation {
+if ( current_time - 200 ) > creation {
 	instance_destroy()
 }
 
-image_xscale += .05
+image_xscale += .01
 image_yscale = image_xscale
 speed += .1
 

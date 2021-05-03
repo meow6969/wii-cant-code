@@ -1,19 +1,22 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function stay_in_border(object, camera) {
-	if object.x < camera_get_view_border_x(camera) {
-		object.x = camera_get_view_border_x(camera)
+function stay_in_border(object, height, width) {
+	if object.x < 0 {
+		object.x = 0
+	}
+	
+	else if object.x > width {
+		object.x = width
+		
 	}
 
-	else if object.x > ( camera_get_view_width(camera) - 20 ) {
-		object.x = camera_get_view_width(camera) - 20
+	if object.y < 0 {
+	 	object.y = 0
+	 	show_debug_message(height)
 	}
 
-	if object.y < camera_get_view_border_y(camera) {
-		object.y = camera_get_view_border_y(camera)
-	}
-
-	else if object.y > ( camera_get_view_height(camera) - 20 ) {
-		object.y = camera_get_view_height(camera) - 20
+	else if object.y > height {
+		object.y = height
+		show_debug_message(height)
 	}
 }

@@ -8,14 +8,12 @@ if hit_timer > -5 {
 	hit_timer -= 3;
 }
 
-stay_in_border(obj_player1, view_camera[0])
+stay_in_border(obj_player1, room_height, room_width)
 
-if room == rm_room1 {
-	if collision_rectangle(1275, 258, 1404, 442, obj_player1, false, false) != noone {
-		show_debug_message("meow")
-		room_goto(rm_room2)
-	}
+
+
+_exits = global.exits[?room_get_name(room)]
+if collision_rectangle(_exits[0], _exits[1], _exits[2], _exits[3], obj_player1, false, false) != noone {
+	show_debug_message("meow")
+	room_goto(room_next(room))
 }
-
-
-// show_debug_message(rm_room3.gaming)
