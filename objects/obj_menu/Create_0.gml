@@ -17,3 +17,5 @@ global.exits = Map(
 );
 
 dont_play = 0
+
+global.boss_1_dead = false
