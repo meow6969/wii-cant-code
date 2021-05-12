@@ -56,16 +56,16 @@ if down {
 if left {
 	x -= momentum_x;
 	//image_angle = 90;
-	if image_xscale > 0 {
-		image_xscale *= -1;
-	}
+	//if image_xscale > 0 {
+	//	image_xscale *= -1;
+	//}
 }
 if right {
 	x += momentum_x;
 	//image_angle = 270;
-	if image_xscale < 0 {
-		image_xscale *= -1;
-	}
+	//if image_xscale < 0 {
+	//	image_xscale *= -1;
+	//}
 }
 
 
