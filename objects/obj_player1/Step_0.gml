@@ -26,9 +26,10 @@ else if invul == 0 {
 	obj_player1.visible = 1
 }
 
-
+try{ 
 _exits = global.exits[?room_get_name(room)]
 if collision_rectangle(_exits[0], _exits[1], _exits[2], _exits[3], obj_player1, false, false) != noone {
 	show_debug_message("meow")
 	room_goto(room_next(room))
+}
 }
