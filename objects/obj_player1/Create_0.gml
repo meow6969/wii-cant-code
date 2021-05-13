@@ -12,5 +12,6 @@ left = false;
 health = 100;
 invul = 0;
 hit_timer = 0;
-run_script = false
+image_xscale = .5
+image_yscale = .5
 
