@@ -26,9 +26,16 @@ else if invul == 0 {
 	obj_player1.visible = 1
 }
 
-_exits = global.exits[?room_get_name(room)]
-show_debug_message(room_get_name(room))
-if collision_rectangle(_exits[0], _exits[1], _exits[2], _exits[3], obj_player1, false, false) != noone {
-	show_debug_message("went 2 room")
-	room_goto(room_next(room))
+
+if room_get_name(room) != "rm_room15" {
+	_exits = global.exits[?room_get_name(room)]
+	show_debug_message(room_get_name(room))
+	if collision_rectangle(_exits[0], _exits[1], _exits[2], _exits[3], obj_player1, false, false) != noone {
+		show_debug_message("went 2 room")
+		room_goto(room_next(room))
+	}
+}
+
+else if not instance_exists(obj_enemy1) {
+	room_goto(rm_end)
 }

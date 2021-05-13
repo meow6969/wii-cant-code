@@ -7,6 +7,13 @@ if room_get_name(room) == "rm_menu" {
 	draw_set_colour(c_black);
 	draw_text(100, 100, "Start Game");
 }
+else if room_get_name(room) == "rm_end" {
+	draw_set_colour(c_white);
+	draw_rectangle(100, 100, 300, 150, false);
+	draw_set_colour(c_black);
+	draw_text(100, 100, "The End");
+}
 else {
 	draw_healthbar(50, 50, 500, 100, health, c_black, c_red, c_green, 0, true, true)
 }
+

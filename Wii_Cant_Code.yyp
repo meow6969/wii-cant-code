@@ -7,6 +7,7 @@
     {"id":{"name":"rm_room15","path":"rooms/rm_room15/rm_room15.yy",},"order":15,},
     {"id":{"name":"til_stone","path":"tilesets/til_stone/til_stone.yy",},"order":2,},
     {"id":{"name":"rm_room7","path":"rooms/rm_room7/rm_room7.yy",},"order":7,},
+    {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":16,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":3,},
     {"id":{"name":"spr_testmeleesword","path":"sprites/spr_testmeleesword/spr_testmeleesword.yy",},"order":5,},
@@ -77,6 +78,7 @@
     {"roomId":{"name":"rm_room13","path":"rooms/rm_room13/rm_room13.yy",},},
     {"roomId":{"name":"rm_room14","path":"rooms/rm_room14/rm_room14.yy",},},
     {"roomId":{"name":"rm_room15","path":"rooms/rm_room15/rm_room15.yy",},},
+    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
