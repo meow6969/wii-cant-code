@@ -11,3 +11,7 @@ if room_get_name(room) == "rm_room1" {
 		dont_play = 1
 	}
 }
+
+else if room_get_name(room) == "rm_end" {
+	audio_stop_sound(snd_overworld)
+}
