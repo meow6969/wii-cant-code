@@ -39,3 +39,7 @@ if room_get_name(room) != "rm_room15" {
 else if not instance_exists(obj_enemy1) {
 	room_goto(rm_end)
 }
+
+if health <= 0 {
+	room_goto(rm_end)
+}
