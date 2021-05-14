@@ -9,7 +9,6 @@ up = false;
 down = false;
 right = false;
 left = false;
-health = 100;
 invul = 0;
 hit_timer = 0;
 image_xscale = .5

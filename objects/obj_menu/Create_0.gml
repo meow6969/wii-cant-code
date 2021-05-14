@@ -1,12 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if room_get_name(room) == "rm_menu" {
+	health = 100;
+}
+
+
 current_room = rm_menu
 
 global.exits = Map(
 	"rm_room1", [1275, 258, 1404, 442],
 	"rm_room2", [1275, 258, 1404, 442],
-	"rm_room3", [3935, 1085, 4000, 1333],
+	"rm_room3", [1224, 275, 1277, 500],
 	"rm_room4", [591, 0, 746, 60],
 	"rm_room5", [0, 331, 32, 557],
 	"rm_room6", [0, 330, 29, 487],

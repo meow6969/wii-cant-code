@@ -5,18 +5,16 @@ function stay_in_border(object, height, width) {
 		object.x = 0
 	}
 	
-	else if object.x > width {
-		object.x = width
+	else if object.x > width - 50 {
+		object.x = width - 50
 		
 	}
 
 	if object.y < 0 {
 	 	object.y = 0
-	 	show_debug_message(height)
 	}
 
-	else if object.y > height {
-		object.y = height
-		show_debug_message(height)
+	else if object.y > height - 50 {
+		object.y = height - 50
 	}
 }
