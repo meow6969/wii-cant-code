@@ -1,12 +1,14 @@
 {
   "resources": [
     {"id":{"name":"stay_in_border","path":"scripts/stay_in_border/stay_in_border.yy",},"order":1,},
+    {"id":{"name":"spr_simileclone","path":"sprites/spr_simileclone/spr_simileclone.yy",},"order":21,},
     {"id":{"name":"rm_room12","path":"rooms/rm_room12/rm_room12.yy",},"order":12,},
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},"order":2,},
     {"id":{"name":"rm_room14","path":"rooms/rm_room14/rm_room14.yy",},"order":14,},
     {"id":{"name":"rm_room15","path":"rooms/rm_room15/rm_room15.yy",},"order":15,},
     {"id":{"name":"til_stone","path":"tilesets/til_stone/til_stone.yy",},"order":2,},
     {"id":{"name":"rm_room7","path":"rooms/rm_room7/rm_room7.yy",},"order":7,},
+    {"id":{"name":"spr_simileclonejump","path":"sprites/spr_simileclonejump/spr_simileclonejump.yy",},"order":22,},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":16,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":3,},
